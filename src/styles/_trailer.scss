@@ -1,0 +1,33 @@
+.trailer {
+
+    background-color: black;
+
+
+
+    &__content {
+
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+        padding: 5.6vh;
+
+
+
+        @media (max-width: 767px) {
+            padding: 1.5rem;
+        }
+
+
+        & video {
+            max-width: 1024px;
+
+            @media (max-width: 1023px) {
+                width: 100%;
+            }
+
+        }
+
+    }
+
+}

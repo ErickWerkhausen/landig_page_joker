@@ -1,0 +1,1 @@
+var button=document.querySelector("#shows"),nav=document.querySelector(".header__nav");button.onclick=o=>{nav.classList.contains("oculto")?nav.classList.remove("oculto"):nav.classList.add("oculto")};

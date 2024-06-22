@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    padding-top: 200px;
+
+    @media (max-width: 1023apx) {
+        padding-top: 100px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 30px;
+    }
+
+    & a {
+        color: variaveis.$corVerde;
+    }
+
+}

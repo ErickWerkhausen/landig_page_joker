@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-bf">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <button class="header__button" id="shows">
+            <img src="./src/imagens/logo/image.png" alt="logo DC">
+        </button>
+
+        <div class="header__nav oculto">
+            <ul class="header__nav__link">
+                <li><a class="header__nav__link__a midle__title" href="#home">home</a></li>
+                <li><a class="header__nav__link__a midle__title" href="#sinopse">Sinopse</a></li>
+                <li><a class="header__nav__link__a midle__title" href="#trailer">trailer</a></li>
+            </ul>
+            <button class="header__nav__button midle__title">
+                Entrar
+            </button>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero__content">
+            <div class="hero__content__background">
+                <video loop autoplay muted>
+                    <source src="./src/videos/backoground-video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero__content__logo">
+                <p>Joaquin Phoenix</p>
+                <img src="./src/imagens/logo/logo_joker_teste.png" alt="">
+                <p>Put on a happy face</p>
+                <div class="hero__content__button">
+                    <a class="midle__title" href="#">Comprar ingresso</a>
+                    <button class="midle__title">Trailer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sinopse" id="sinopse">
+        <h3 class="big__tile">Sinopse</h3>
+        <div class="sinopse__box">
+            <p class="sinopse__box__info midle__title">
+                Para sempre sozinho no meio da multidão, o comediante fracassado Arthur Fleck busca conexão enquanto
+                caminha pelas ruas de Gotham City. Arthur usa duas máscaras - a que ele pinta para seu trabalho diário
+                como palhaço e a aparência que ele projeta em uma tentativa fútil de se sentir parte do mundo ao seu
+                redor. Isolado, intimidado e desconsiderado pela sociedade, Fleck começa uma lenta descida à loucura
+                enquanto se transforma no gênio do crime conhecido como Coringa.
+            </p>
+
+            <img class="sinopse__box__card" src="./src/imagens/capa/image.png" alt="">
+        </div>
+
+    </section>
+    <section class="trailer" id="trailer">
+        <h3 class="big__tile">Trailer</h3>
+        <div class="trailer__content">
+            <video poster="./src/imagens/capa/image--poster.png" controls>
+                <source src="./src/videos/backoground-video.mp4">
+        </div>
+
+    </section>
+    <footer>
+        <p class="min_title ">&copy; 2023 - Todos os direitos reservados</p>
+        <p class="min_title ">Entre em contato pelo e-mail: contato@exemplo.com</p>
+        <nav >
+            <ul class="min_title ">
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="./src/scripts/main.js"></script>
+</body>
+
+</html>

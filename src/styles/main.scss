@@ -1,0 +1,53 @@
+@use 'hero';
+@use 'header';
+@use 'variaveis';
+@use 'sinopse';
+@use 'trailer';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.midle__title {
+    font-size: 25px;
+
+    @media (max-width: 767px) {
+        font-size: 45px;
+    }
+
+    @media (max-width: 1023px) {
+        font-size: 15px;
+    }
+}
+
+.min_title {
+    font-size: 15px;
+
+    @media (max-width: 1023px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 10px;
+    }
+
+}
+
+.big__tile {
+    font-size: 35px;
+    color: variaveis.$corVerde;
+    text-align: center;
+    padding: 150px 0 50px 0;
+
+    @media (max-width: 767px) {
+        font-size: 25px;
+        padding: 30px;
+    }
+}

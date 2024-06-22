@@ -1,0 +1,32 @@
+{
+  "name": "projeto_landinf_page_filme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "sass": "^1.77.4"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "exports": {
+    "import": "./es6entry.mjs",
+    "require": "./es5entry.cjs"
+  }
+}
